@@ -42,7 +42,7 @@ gcc encryptx.c -o encryptx
 - Include other ciphers (Caesar, Vigenère)
 - Interactive menu-driven version for easier use <br>
 
-###📖 Learning Outcome
+### 📖 Learning Outcome
 
 - File handling in C (fopen, fgetc, fputc)
 - Command-line arguments (argv, argc)
