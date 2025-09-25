@@ -19,16 +19,16 @@ This project was developed as part of my learning journey during the **NPTEL C P
 
 ### 1. Compile
 ```bash
-gcc encryptx.c -o encryptx
+gcc hidenseek.c -o encryptx
 ```
 ### 2. Encrypt a file
 ```bash
-./encryptx enc input.txt output.enc X
+./hidenseek enc input.txt output.enc X
 ```
 
 ### 3. Decrypt a file
 ```bash
-./encryptx dec output.enc result.txt X
+./hidenseek dec output.enc result.txt X
 ```
 - enc → mode (encrypt)
 - dec → mode (decrypt)
@@ -36,13 +36,24 @@ gcc encryptx.c -o encryptx
 - output.enc → output file
 - X → key (single character) <br>
 
-### 📂 Example
-- 🚀 Future Enhancements
+## 📂 Example
+### Encrypting a text file:
+```
+./hidenseek enc secret.txt secret.enc K
+```
+
+
+### Decrypting it back:
+```
+./hidenseek dec secret.enc recovered.txt K
+```
+
+## 🚀 Future Enhancements
 - Add support for multi-character string keys
 - Include other ciphers (Caesar, Vigenère)
 - Interactive menu-driven version for easier use <br>
 
-### 📖 Learning Outcome
+## 📖 Learning Outcome
 
 - File handling in C (fopen, fgetc, fputc)
 - Command-line arguments (argv, argc)
