@@ -30,4 +30,8 @@ gcc encryptx.c -o encryptx
 ```bash
 ./encryptx dec output.enc result.txt X
 ```
-
+- enc → mode (encrypt)
+- dec → mode (decrypt)
+- input.txt → file you want to encrypt/decrypt
+- output.enc → output file
+- X → key (single character)
