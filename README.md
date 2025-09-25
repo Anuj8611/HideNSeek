@@ -34,4 +34,17 @@ gcc encryptx.c -o encryptx
 - dec → mode (decrypt)
 - input.txt → file you want to encrypt/decrypt
 - output.enc → output file
-- X → key (single character)
+- X → key (single character) <br>
+
+### 📂 Example
+- 🚀 Future Enhancements
+- Add support for multi-character string keys
+- Include other ciphers (Caesar, Vigenère)
+- Interactive menu-driven version for easier use <br>
+
+###📖 Learning Outcome
+
+- File handling in C (fopen, fgetc, fputc)
+- Command-line arguments (argv, argc)
+- Bitwise operations (XOR)
+- Error handling and program design
