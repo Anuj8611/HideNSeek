@@ -20,3 +20,14 @@ This project was developed as part of my learning journey during the **NPTEL C P
 ### 1. Compile
 ```bash
 gcc encryptx.c -o encryptx
+```
+### 2. Encrypt a file
+```bash
+./encryptx enc input.txt output.enc X
+```
+
+### 3. Decrypt a file
+```bash
+./encryptx dec output.enc result.txt X
+```
+
